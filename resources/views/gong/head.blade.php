@@ -6,7 +6,7 @@
 	<div class="blank0"></div>
 	<!-- 头部部分 -->
 	<div class="w1200 xwpd_top_box" id="xwpd01">
-		<a href="/"><img class="logo" src="http://res.yun.cnhubei.com/t/site/10001/67387ec5be6b393bef59a3eb2feee85b/assets//hbrb/images/xwpd_logo_wbz.png" /></a>
+		<a href="/"><img class="logo" src="/images/hangzhou.png" /></a>
 		{{-- <div class="search_box">
 			<div class="box"></div>
 			<div class="searchbox">
