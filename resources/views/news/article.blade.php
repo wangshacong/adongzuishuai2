@@ -5,7 +5,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
-    <title>鄂州机场主体工程2019年全面启建</title>
+    @foreach($content as $v)
+    <title>{{$v['title']}}</title>
+    @endforeach
     <meta itemprop="description" name="description" content="1月8日，鄂州市在今年《政府工作报告》中提出，将全面推进鄂州机场建设和空港经济发展。" />
     <meta itemprop="name" content="鄂州机场主体工程2019年全面启建" />
     <meta name="keywords" content="鄂州机场;全面开建" />
@@ -211,7 +213,7 @@
         $fenlei = \DB::Table('fenlei2s')->where('id',$v['fenlei_id'])->get();
         ?>
         <div class="lmy_dw">
-            <a href="/">广州实创</a>
+            <a href="/">杭州实创</a>
             @foreach($fenlei as $val)
             <a href="http://news.cnhubei.com/hbxw15704/index.html"> > {{$val->fenlei_name}}</a>
             @endforeach

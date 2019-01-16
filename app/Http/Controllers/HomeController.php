@@ -30,9 +30,10 @@ class HomeController extends Controller
     public function fenlei($id)
     {
         $fenlei = Fenlei2::all();
+        $dangqian_fenlei = Fenlei2::where('id',$id)->first();
         $article = Article2::orderBy('id','desc')->where('fenlei_id','=',$id)->where('news_pic','<>','')->paginate(10);
         $lunbo = Article2::orderBy('id','desc')->where('fenlei_id',$id)->where('news_pic','<>','')->limit(5)->get();
-        return view('news.list',compact('article','fenlei','id','lunbo'));
+        return view('news.list',compact('article','fenlei','id','lunbo','dangqian_fenlei'));
     }
 
     //内容页
