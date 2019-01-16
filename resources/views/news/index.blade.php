@@ -269,7 +269,7 @@
 						?>
 						@foreach($news as $val)
 						<div class="box"> <a href="/article/{{$val->id}}"><img src="{{$val->news_pic}}" /></a>
-							<div class="title"><a href="/article/{$val->id}">{{$val->title}}</a></div>
+							<div class="title"><a href="/article/{{$val->id}}">{{$val->title}}</a></div>
 							<div class="des" style="webkit-line-clamp:2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">{{preg_replace('/<.*?>/','',$val->content)}}</div><a href="/article/{{$val->id}}">[详细]</a>
 							<div class="time">
 								<em>{{$val->create_time}}</em>
