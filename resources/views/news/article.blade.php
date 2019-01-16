@@ -239,7 +239,7 @@
 
                 <div class="article_w">
                     <!-- 正文 -->
-                    <?php echo $v['content'] ?>
+                    <?php echo str_replace('<img src="','<img src="http://news.cnhubei.com',$v['content']); ?>
                     <!-- 正文 end -->
                     @endforeach
                     <!-- 正文代码 -->
