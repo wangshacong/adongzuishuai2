@@ -119,6 +119,15 @@
 
         }
     </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?a25f6411fa52c7938d644a4b4d070b95";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </head>
 
 <body>
@@ -168,7 +177,8 @@
                         @foreach($article as $v)
                         <div class="box"> <a href="/article/{{$v['id']}}"><img src="{{$v['news_pic']}}" /></a>
                             <div class="title"><a href="/article/{{$v['id']}}">{{$v['title']}}</a></div>
-                            <div class="des" style="webkit-line-clamp:2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">{{preg_replace('/<.*?>/','',$v->content)}}</div><a href="/article/{{$v->id}}">[详细]</a>
+                            <div class="des" style="webkit-line-clamp:2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">{{preg_replace('/<.*?>/','',$v->content)}}</div><a
+                                href="/article/{{$v->id}}">[详细]</a>
                             <div class="time">
                                 <!--<span>湖北发布</span>--> <em>{{$v['create_time']}}</em></div>
                         </div>
