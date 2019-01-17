@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11" />
     <meta name="renderer" content="webkit" />
     <title>{{$dangqian_fenlei['fenlei_name']}}频道</title>
+    
     <link rel="stylesheet" type="text/css" href="http://res.yun.cnhubei.com/t/site/10001/67387ec5be6b393bef59a3eb2feee85b/assets/hbrb/index_xwpd.css">
     <link rel="stylesheet" type="text/css" href="http://res.yun.cnhubei.com/t/site/10001/67387ec5be6b393bef59a3eb2feee85b/assets/hbrb/common_2018.css">
+    <link rel="stylesheet" href="/css/app.css">
     <script type="text/javascript" src="http://res.yun.cnhubei.com/t/site/10001/67387ec5be6b393bef59a3eb2feee85b/assets/hbrb/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="http://res.yun.cnhubei.com/t/site/10001/67387ec5be6b393bef59a3eb2feee85b/assets/hbrb/jquery.SuperSlide.2.1.1.js"></script>
     <script>

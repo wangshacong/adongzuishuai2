@@ -10,6 +10,7 @@
 	<meta itemprop="name" content="荆楚网" />
 	<meta content="荆楚网;湖北" name="keywords" />
 	<link rel="canonical" href="//news.cnhubei.com/">
+	<link rel="stylesheet" href="/css/app.css">
 	<link rel="stylesheet" type="text/css" href="http://res.yun.cnhubei.com/t/site/10001/67387ec5be6b393bef59a3eb2feee85b/assets//hbrb/index_xwpd.css">
 	<link rel="stylesheet" type="text/css" href="http://res.yun.cnhubei.com/t/site/10001/67387ec5be6b393bef59a3eb2feee85b/assets//hbrb/common_2018.css">
 	<script type="text/javascript" src="http://res.yun.cnhubei.com/t/site/10001/67387ec5be6b393bef59a3eb2feee85b/assets//hbrb/jquery-1.9.1.min.js"></script>
