@@ -8,7 +8,7 @@
     @foreach($content as $v)
     <title>{{$v['title']}}</title>
     <meta name="keywords" content="{{$v['title']}}">
-    <meta name="description" content="{{sub_str(preg_replace('/<.*?>/','',$v['content']),0,25)}}">
+    <meta name="description" content="{{mb_substr(preg_replace('/<.*?>/','',$v['content']),0,25)}}">
     @endforeach
     <link rel="canonical" href="http://wwwwww.cnhubei.com/">
     <meta itemprop="image" content="http://wwwwww.cnhubei.com/images/640logo.jpg" ignoreapd="1" />
