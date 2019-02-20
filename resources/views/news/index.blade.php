@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11" />
 	<meta name="renderer" content="webkit" />
-	<title>新闻频道_荆楚网_湖北日报网</title>
+	<title>杭州实创</title>
 	<meta name="keywords" content="杭州实创新闻,最新国际消息,最新实时新闻,国际,文化,娱乐,体育,舆情,财经,健康,商业" />
 	<meta name="description" content="杭州实创新闻是包含海量资讯的新闻服务平台，真实反映每时每刻的新闻热点。" />
 	<link rel="canonical" href="//news.cnhubei.com/">
