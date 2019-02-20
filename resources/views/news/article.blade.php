@@ -7,10 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
     @foreach($content as $v)
     <title>{{$v['title']}}</title>
+    <meta name="keywords" content="{{$v['title']}}">
+    <meta name="description" content="{{sub_str(preg_replace('/<.*?>/','',$v['content']),0,25)}}">
     @endforeach
-    <meta itemprop="description" name="description" content="1月8日，鄂州市在今年《政府工作报告》中提出，将全面推进鄂州机场建设和空港经济发展。" />
-    <meta itemprop="name" content="鄂州机场主体工程2019年全面启建" />
-    <meta name="keywords" content="鄂州机场;全面开建" />
     <link rel="canonical" href="http://wwwwww.cnhubei.com/">
     <meta itemprop="image" content="http://wwwwww.cnhubei.com/images/640logo.jpg" ignoreapd="1" />
     <link rel="stylesheet" type="text/css" href="http://res.yun.cnhubei.com/t/site/10001/67387ec5be6b393bef59a3eb2feee85b/assets//hbrb/index_wangbanzi_201801.css">

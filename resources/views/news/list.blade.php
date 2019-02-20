@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11" />
     <meta name="renderer" content="webkit" />
     <title>{{$dangqian_fenlei['fenlei_name']}}频道</title>
-    
+    <meta name="keywords" content="杭州实创新闻,最新国际消息,最新实时新闻,国际,文化,娱乐,体育,舆情,财经,健康,商业" />
+	<meta name="description" content="杭州实创新闻是包含海量资讯的新闻服务平台，真实反映每时每刻的新闻热点。" />
     <link rel="stylesheet" type="text/css" href="http://res.yun.cnhubei.com/t/site/10001/67387ec5be6b393bef59a3eb2feee85b/assets/hbrb/index_xwpd.css">
     <link rel="stylesheet" type="text/css" href="http://res.yun.cnhubei.com/t/site/10001/67387ec5be6b393bef59a3eb2feee85b/assets/hbrb/common_2018.css">
     <link rel="stylesheet" href="/css/app.css">

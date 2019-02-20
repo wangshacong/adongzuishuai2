@@ -6,9 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11" />
 	<meta name="renderer" content="webkit" />
 	<title>新闻频道_荆楚网_湖北日报网</title>
-	<meta itemprop="description" name="description" content="荆楚网由湖北日报传媒集团主办，湖北荆楚网络科技股份有限公司运营，是湖北地区最大的网络平台。业务涉及新闻资讯、财经房产、时尚娱乐、旅游信息、教育培训、短信服务、福利彩票、社区论坛等，并积极开拓电子商务、动画动漫、二维码产业。" />
-	<meta itemprop="name" content="荆楚网" />
-	<meta content="荆楚网;湖北" name="keywords" />
+	<meta name="keywords" content="杭州实创新闻,最新国际消息,最新实时新闻,国际,文化,娱乐,体育,舆情,财经,健康,商业" />
+	<meta name="description" content="杭州实创新闻是包含海量资讯的新闻服务平台，真实反映每时每刻的新闻热点。" />
 	<link rel="canonical" href="//news.cnhubei.com/">
 	<link rel="stylesheet" type="text/css" href="http://res.yun.cnhubei.com/t/site/10001/67387ec5be6b393bef59a3eb2feee85b/assets//hbrb/index_xwpd.css">
 	<link rel="stylesheet" type="text/css" href="http://res.yun.cnhubei.com/t/site/10001/67387ec5be6b393bef59a3eb2feee85b/assets//hbrb/common_2018.css">
